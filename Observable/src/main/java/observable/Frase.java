@@ -6,10 +6,9 @@ import observable.impl.Observavel;
 public class Frase {
     public static void main(String[] args) {
 
-        // Criando o observavel (subject) netflix.
         Observavel frase = new Observavel();
 
-        //Criando 3 observadores e fazendo a inscrição em Netflix.
+        //Criando 3 observadores e fazendo a inscrição .
         Observador obs1 = new Observador(1);
         Observador obs2 = new Observador(2);
         Observador obs3 = new Observador(3);

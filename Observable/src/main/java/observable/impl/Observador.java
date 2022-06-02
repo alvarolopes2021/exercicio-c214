@@ -4,7 +4,7 @@ import observable.interfaces.IObservador;
 
 public class Observador implements IObservador {
 
-    private String nomeSerie, genero;
+    private String genero;
     int id;
 
     public Observador(int id) {

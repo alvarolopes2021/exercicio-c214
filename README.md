@@ -15,4 +15,4 @@
 	
 	* Instale as dependências
 	
-	* Execute os teste e rode a aplicação
+	* Execute os testes e rode a aplicação

@@ -1,2 +1,6 @@
-/target
+/Strategy/target
+/Observable/target
+/Strategy/.idea
+/Observable/.idea
 /.idea
+/.git

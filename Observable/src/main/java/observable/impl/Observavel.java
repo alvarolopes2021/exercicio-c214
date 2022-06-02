@@ -43,7 +43,7 @@ public class Observavel implements IObservavel {
     public void realizaOperacao(String frase){
         System.out.println("\n\n####### Mostrando dados #######\n\n");
         this.qtdPalavras = frase.split(" ").length;
-        this.qtdPalavrasUpper = Arrays.stream(frase.split(" ")).filter(word -> word.startsWith(word.substring(0,0).toUpperCase())).collect(Collectors.toList()).size();
+        this.qtdPalavrasUpper = Arrays.stream(frase.split(" ")).filter(word -> word.startsWith(word.substring(0,1).toUpperCase())).collect(Collectors.toList()).size();
         this.qtdPalavrasPar = Arrays.stream(frase.split(" ")).filter(word -> word.length() % 2 == 0).collect(Collectors.toList()).size();
         novasMedidas();
     }

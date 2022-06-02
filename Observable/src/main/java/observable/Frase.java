@@ -18,7 +18,7 @@ public class Frase {
         frase.registraObservador(obs2);
         frase.registraObservador(obs3);
 
-        frase.realizaOperacao("A FRASE ESCOLHIDA");
+        frase.realizaOperacao("A frase escolhida Foi pare");
 
         frase.removeObservador(obs3);
 
